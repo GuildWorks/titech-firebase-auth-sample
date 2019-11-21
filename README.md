@@ -11,17 +11,17 @@ $ git clone https://github.com/GuildWorks/titech-firebase-auth-sample.git
 ## Initial launch
 1. Install libraries
 ```$xslt
-$ cd ~/workspace/titech-firebase-auth-sampl/
+$ cd ~/workspace/titech-firebase-auth-sample/
 $ yarn install
 ```
 
 ## Launch application for local
 ```
-$ cd ~/workspace/<project-name>/
+$ cd ~/workspace/titech-firebase-auth-sample/
 $ yarn dev
 ```
 
-## install Visual Studio Code
+## Open Visual Studio Code
 - [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 ## Practice1: SignUp
