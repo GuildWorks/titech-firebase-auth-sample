@@ -100,15 +100,17 @@ $ yarn dev
 ## install Visual Studio Code
 - [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-## Practice1: Hello world
-- [https://ja.nuxtjs.org/examples](https://ja.nuxtjs.org/examples)
+## Practice1: SignUp
+- `pages/sign_up.vue` を開く
+- [Firebaseのドキュメント](https://firebase.google.com/docs/auth/web/start?hl=ja)を元に新規登録機能を作ってみよう
 
-## Practice2: Routing
-- [https://ja.nuxtjs.org/guide/routing](https://ja.nuxtjs.org/guide/routing)
-- [Dynamic Routes](https://vueschool.io/lessons/nuxtjs-dynamic-routes?friend=nuxt)
-- [source code](https://github.com/vueschool/nuxt-fundamentals/blob/817ec3205b3085e1bf2f1d6c9d5ca1be21736494/pages/posts/_id.vue)
-1. `posts/_id.vue` に投稿詳細を作成してみよう
-2. `index.vue` に投稿一覧を作成してみよう
+## Practice2: Login
+- `pages/login.vue` を開く
+- SignUpと同じようにログイン機能を作ってみよう
+
+## Practice3: Check token
+- [Firebaseのドキュメント](https://firebase.google.com/docs/auth/web/start?hl=ja)を元にトップページを開くときにトークンをチェックしよう
+- チェックしたトークンがない場合はログインページに遷移させてみよう
 
 ## build & start for production
 ```
