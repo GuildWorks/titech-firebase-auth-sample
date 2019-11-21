@@ -1,0 +1,19 @@
+{
+  "name": "titech-firebase-auth-sample",
+  "version": "1.0.0",
+  "description": "My extraordinary Nuxt.js project",
+  "author": "keinuma",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.10.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.90"
+  }
+}
