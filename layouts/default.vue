@@ -50,12 +50,18 @@
       </v-btn>
       <v-toolbar-title v-text="title" />
       <v-spacer />
-      <v-btn
-        icon
-        @click.stop="rightDrawer = !rightDrawer"
-      >
-        <v-icon>mdi-menu</v-icon>
-      </v-btn>
+      <v-btn-toggle>
+        <nuxt-link tag="div" to="sign_up">
+          <v-btn class="mr-8 deep-purple">
+            新規登録
+          </v-btn>
+        </nuxt-link>
+        <nuxt-link tag="div" to="login">
+          <v-btn class="primary">
+            ログイン
+          </v-btn>
+        </nuxt-link>
+      </v-btn-toggle>
     </v-app-bar>
     <v-content>
       <v-container>
